@@ -1,5 +1,5 @@
 <?php
-echo "Estoy en el aarchivo uno.php \n";
+$x = require 'dos.php';
+echo "Estoy en el aarchivo uno.php y x vale $x \n";
 
-require_once 'dos.php';
-require_once 'tres.php';                // ahora solo lo carga una sola vez
+
