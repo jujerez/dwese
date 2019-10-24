@@ -1,4 +1,4 @@
 <?php
 echo "Estoy en el dos.php\n";
-require 'tres.php';
+require __DIR__ . '/../tres.php';
 return 25;
