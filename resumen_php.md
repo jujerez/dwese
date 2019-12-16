@@ -43,18 +43,35 @@
 
 ```php 
      $str = 'Hola'
-     strlen($str); --> Devuelve la longitud de la cadena  
-     strpos($str, 'o'); --> Devuelve la posicion de la primera cadena
-     strrpos('pajar', 'aguja') --> Devuelve la posición de la ultima aparición de la cadena
+     strlen($str); # Devuelve la longitud de la cadena  
+     strpos($str, 'o'); # Devuelve la posicion de la primera cadena
+     strrpos('pajar', 'aguja') #Devuelve la posición de la ultima aparición de la cadena
      substr('cadena');
-     trim('    hola mundo   '); --> Quita los espacios
-     explode('delimitador', 'cadena') --> Devuelve un array   
+     trim('    hola mundo   '); # Quita los espacios
+     explode('delimitador', 'cadena') #Devuelve un array   
 
 ```
 [_Todas las funciones String_](https://www.php.net/manual/es/ref.strings.php)
 
 [_Funciones mbstring_](https://www.php.net/manual/es/ref.mbstring.php)
 
-## Manupuación de datos
+### Manupuación de datos
+
+[Funciones de manejo de variables](https://www.php.net/manual/es/ref.mbstring.php)
+
+1. Comprobaciones, [Funciones de manejo de variables](https://www.php.net/manual/es/ref.mbstring.php)
+   * De tipos: 
+
+        * ```php 
+             getType(5); # Devuelve el tipo
+             is_boll();
+             is_float();
+             # ..... is_tipo()
+        ```
+    * De valores: 
+        * ```php 
+             is_numeric()
+             ctype_'*'()
+        ```
 
 
