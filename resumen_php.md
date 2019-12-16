@@ -67,11 +67,22 @@
              is_boll();
              is_float();
              # ..... is_tipo()
-        ```
+          ```
     * De valores: 
         * ```php 
              is_numeric()
              ctype_'*'()
-        ```
+          ```
+# Segundo Trimestre
+### Interperobalidad
+
+### Composer
+[Repositorio de paquetes composer](http://www.packagist.org)
+
+### Restricciones de versiones 
+* Numero de version
+* Rango de versiones
+* Asterisco(*)
+* Virgulilla (~)
 
 
