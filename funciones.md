@@ -5,7 +5,7 @@ var_dump(expr) Es como un echo pero además del tipo te vuelca a la salida el ti
 
 max(mixed $a, mixed $b [, mixed $... ]) Devuelve el mayor de los números que se le pasan por parámetros
 
-```php ltrim(" hola ") Quita los espacios de la izquierda ```
+```php ltrim(" hola ") ```Quita los espacios de la izquierda 
 
 ```php rtrim(" hola ") Quita los espacios de la derecha ```
 
